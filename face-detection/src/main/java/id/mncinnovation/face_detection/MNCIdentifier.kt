@@ -10,11 +10,8 @@ import id.mncinnovation.identification.core.common.EXTRA_RESULT
 object MNCIdentifier {
     private var attempt = 0
     var detectionMode = listOf(
-        DetectionMode.HOLD_STILL,
-        DetectionMode.OPEN_MOUTH,
-        DetectionMode.BLINK,
-        DetectionMode.SHAKE_HEAD,
-        DetectionMode.SMILE
+        DetectionMode.HOLD_STILL
+       
     )
 
     @JvmStatic
