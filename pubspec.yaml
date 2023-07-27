@@ -1,4 +1,4 @@
-name: mnc_identifier_ocr_edit
+name: mnc_identifier_sdk_android
 description: MNC Flutter plugin KTP scanner for iOS and Android.
 version: 1.0.19
 homepage: https://github.com/AshrazRashid/mnc-identifiersdk-android-edit.git

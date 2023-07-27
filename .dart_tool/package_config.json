@@ -140,13 +140,13 @@
       "languageVersion": "2.14"
     },
     {
-      "name": "mnc_identifier_ocr_edit",
+      "name": "mnc_identifier_sdk_android",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.16"
     }
   ],
-  "generated": "2023-07-27T07:50:54.170995Z",
+  "generated": "2023-07-27T08:00:09.988782Z",
   "generator": "pub",
   "generatorVersion": "3.0.6"
 }
