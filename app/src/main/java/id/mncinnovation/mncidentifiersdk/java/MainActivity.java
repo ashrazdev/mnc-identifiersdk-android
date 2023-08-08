@@ -11,8 +11,7 @@ import id.mncinnovation.face_detection.MNCIdentifier;
 import id.mncinnovation.face_detection.SelfieWithKtpActivity;
 import id.mncinnovation.face_detection.analyzer.DetectionMode;
 import id.mncinnovation.mncidentifiersdk.databinding.ActivityMainBinding;
-import id.mncinnovation.ocr.CaptureOCRActivity;
-import id.mncinnovation.ocr.ScanOCRActivity;
+
 
 @SuppressWarnings("deprecation")
 public class MainActivity extends AppCompatActivity  {
@@ -30,13 +29,7 @@ public class MainActivity extends AppCompatActivity  {
         MNCIdentifier.setDetectionModeSequence(true, Arrays.asList(
                 DetectionMode.HOLD_STILL
                 ));
-        binding.btnScanKtp.setOnClickListener(v ->
-            startActivityForResult(new Intent(this, ScanOCRActivity.class), SCAN_KTP_REQUEST_CODE)
-        );
 
-        binding.btnCaptureKtp.setOnClickListener(v ->
-            startActivityForResult(new Intent(this, CaptureOCRActivity.class), CAPTURE_EKTP_REQUEST_CODE)
-        );
 
         binding.btnLivenessDetection.setOnClickListener(v ->
             startActivityForResult(MNCIdentifier.getLivenessIntent(this), LIVENESS_DETECTION_REQUEST_CODE)
