@@ -85,15 +85,7 @@ class LivenessDetectionAnalyzer(
                         image.close()
                     }
             }
-            DetectionMode.OPEN_MOUTH -> {
-                countourDetector.process(inputImage)
-                    .addOnSuccessListener { faces ->
-                        handleFaces(faces)
-                    }
-                    .addOnCompleteListener {
-                        image.close()
-                    }
-            }
+           
             else -> {
                 image.close()
             }
@@ -211,7 +203,7 @@ class LivenessDetectionAnalyzer(
 }
 
 enum class DetectionMode {
-    BLINK, SHAKE_HEAD, OPEN_MOUTH, SMILE, HOLD_STILL
+    SHAKE_HEAD,  HOLD_STILL
 }
 
 enum class FaceStatus {
