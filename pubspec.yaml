@@ -1,4 +1,4 @@
-name: mnc_identifier_face
+name: MNCIdentifier
 description: MNC liveness detection flutter plugin
 version: 0.0.1
 homepage: https://github.com/ashrazdev/mnc-identifiersdk-android.git
