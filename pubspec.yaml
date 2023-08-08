@@ -35,10 +35,10 @@ flutter:
   plugin:
     platforms:
       android:
-        package: id.mncinnovation.mnc_identifier_face
-        pluginClass: MncIdentifierFacePlugin
+        package: id.mncinnovation.face_detection
+        pluginClass: MNCIdentifier
       ios:
-        pluginClass: MncIdentifierFacePlugin
+        pluginClass: MNCIdentifier
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
